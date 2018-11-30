@@ -1,1 +1,1 @@
-# fediverse-lightning-talk
+# Fediverse Lightning Talk

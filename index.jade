@@ -1,0 +1,58 @@
+extends layouts/presentation
+
+block append head
+	title Fediverse Lightning Talk
+
+block content
+	section
+		img.no-border(style="max-height: 30vh", src='/img/intro.png')
+		h2 The Fediverse
+	
+	section
+		section
+			img.no-border(src='/img/twitter1.jpg')
+		section
+			img.no-border(src='/img/twitter2.png')
+		section
+			img.no-border(src='/img/twitter3.png')
+	
+	section
+		img.no-border(style="max-height: 50vh", src='/img/instances.png')
+		h2 Instances
+	
+	section
+		img.no-border(style="max-height: 50vh", src='/img/activitypub.svg')
+		img.no-border(style="max-height: 50vh", src='/img/activitypub-works.png')
+			
+
+	section
+		aside.notes
+			ul
+				li mastodon
+				li plemora
+				li peertube
+				li pixelfed
+				li plume
+				li funkwhale
+				li hubzilla
+				li gnusocial
+				li diaspora
+				li friendica
+		
+		.projects
+			img(src='/img/mastodon.png')
+			img(src='/img/plemora.png')
+			img(src='/img/peertube.png')
+			img(src='/img/pixelfed.png')
+			img(src='/img/plume.png')
+			img(src='/img/funkwhale.png')
+			img(src='/img/hubzilla.svg')
+			img(src='/img/gnusocial.png')
+			img(src='/img/diaspora.png')
+			img(src='/img/friendica.png')
+			
+
+	</aside>
+
+	section(data-background-image="/img/joinmastodon.jpeg")
+		h2(style="margin-top: 55vh") joinmastodon.org

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Logo design by iko, .svg by Treer -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="64" height="64" viewBox="0 0 256 256" stroke="none" fill="#43488a">
+
+	<title>Hubzilla logo</title>
+
+	<circle r="128" cx="128" cy="128"/>
+	<path d="M128,56 l-81,48 h22 v86 h118 v-86 h22 z" fill="#fff"/>
+	<circle r="23" cx="148" cy="117"/>
+	<circle r="17" cx="101" cy="141"/>
+	<circle r="12" cx="138" cy="166"/>
+	<path d="M148,117 101,141 138,166 z" stroke="#43488a" stroke-width="4" fill="none"/>
+</svg>
